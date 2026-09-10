@@ -1,4 +1,4 @@
-# MEGR 2156 — Design Projects I Laboratory
+# MEGR 2157 L3D - 3D Printing Lab Portfolio
 
 > **Engineering is the art of making decisions you can defend.**
 
