@@ -76,6 +76,8 @@ The NOBLE team logo file was imported into PrusaSlicer to prepped for printing. 
 
 Intial import of the object file into PrusaSlicer
 
+I chose to print the object on the bottom face for overhangs were not allowed and if I had chosen to build vertically or with the flat face as the top it would have had some serious overhangs to design around.
+
 <img width="418" height="395" alt="image" src="https://github.com/user-attachments/assets/d3f9df3b-bd7d-4647-a314-7fb70f9d70ef" />
 
 Nozzle and material settings for the object print
@@ -120,6 +122,8 @@ All that was left to do was upload the exported G-code to one of the 3D printers
 
 <img width="4284" height="5712" alt="IMG_7423" src="https://github.com/user-attachments/assets/9c942e1c-8776-4bd1-9c2d-f952cda7a6c5" />
 
+The final printed part. Measurements came out to 1.5" wide at the triangular base and 0.25" tall when measuring the walls that show the total depth of the piece.
+
 ## Lessons Learned & Changes for Next Time
 
-If this had to be printed again, I would have added a small ring coming off the top that could be used to attach the symbol to a keyring. A couple of the proportions were off and needed to be a little bit thicker, but overall I was very satisfied with how the object turned out. No details were lost due to being too large or small and not being compatible with the project's print settings.
+If this had to be printed again, I would have added a small ring coming off the top that could be used to attach the symbol to a keyring. A couple of the proportions were off and needed to be a little bit thicker, but overall I was very satisfied with how the object turned out. No details were lost due to being too large or small and not being compatible with the project's print settings. Another change would have been making the walls a 
