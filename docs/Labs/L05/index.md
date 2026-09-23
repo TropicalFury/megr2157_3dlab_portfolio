@@ -28,7 +28,7 @@ The first step of the design modeling process was to take my values for physical
 
 <img width="696" height="456" alt="image" src="https://github.com/user-attachments/assets/76c17c91-ddf2-4985-89e4-2eb0657ce471" />
 
-The first has all the parameters used in the design modeling process, some of them being specific to this part.
+The first has all the parameters used in the design modeling process, some of them being specific to this part. I wanted to keep what I could uniform throughout or come out to a nice rounded number so as to be compatible with existing parts and standards. This resulted in a thickness of .250in for the clamp end part at its thinnest when looking at the clamping portion itself. This value used to be smaller but a quarter inch was deemed more than solid enough for the part without making it seem frail. As well, other parameters like height of width could have been tighter but were not necessary for the intended purpose of needing to hold a charging cable yet be easy to remove.
 
 <img width="1160" height="744" alt="image" src="https://github.com/user-attachments/assets/48a960d0-423e-41fa-98bc-88b6beb94484" />
 
@@ -87,9 +87,50 @@ The final version of the inserted part after some finishing touches with fillets
 The final modeling tree of the second part.
 
 ## Pre-printing Process
+The parts were deliberately made in a certain way to be easily printed without supports provided they are placed on the correct faces respectively.
 
+<img width="389" height="352" alt="image" src="https://github.com/user-attachments/assets/65922678-c9a2-452b-a003-dc311ef62700" />
 
+The clamping part gets laid with the flat face that will be stuck to a wall on the printing floor while the inserted part sits on the bottom.
+
+<img width="658" height="555" alt="image" src="https://github.com/user-attachments/assets/5e9659e0-76b1-460a-ac89-dfe3e0bd6950" />
+
+The layers and perimeters tab did not see any changes for none were deemed necessary here.
+
+<img width="471" height="143" alt="image" src="https://github.com/user-attachments/assets/614c8ca8-4944-46aa-adc1-f1df4f58c5e1" />
+
+The infill was set to rectilinear to give the parts multi-directional support yet still be simple and efficient with filament use. The infill percentage was not changed but will be discussed for further iteration in the In Review section.
+
+<img width="835" height="595" alt="image" src="https://github.com/user-attachments/assets/fa3d71fd-ae01-4306-931e-3a4175417b55" />
+
+<img width="860" height="637" alt="image" src="https://github.com/user-attachments/assets/5961840d-d9af-4aae-a625-2266b0e86575" />
+
+<img width="822" height="720" alt="image" src="https://github.com/user-attachments/assets/c2a0d586-e545-400c-8e86-e795b418ad06" />
+
+<img width="1501" height="943" alt="image" src="https://github.com/user-attachments/assets/a4a3578d-0216-4d62-8d6e-cc1dd96f99f0" />
+
+A progression of the slicing preview using the print settings listed above.
+
+<img width="411" height="158" alt="image" src="https://github.com/user-attachments/assets/02a21012-a817-4a8e-9c57-9990577ac68f" />
+
+Finally, a print time of 32 minutes was projected for the parts.
 ## Printing & Testing
 
+<img width="4284" height="5712" alt="IMG_7620" src="https://github.com/user-attachments/assets/c105bb83-0196-4433-ac6f-ca234067652d" />
+
+As with previous prints the upload of the exported G-code to the Pruse Core One was quick and easy.
+
+<img width="4284" height="5712" alt="IMG_7622" src="https://github.com/user-attachments/assets/95fc6a46-421a-4b40-b57f-ffae731f3df5" />
+
+The printing process captured at a point where the rectilinear infill can be seen.
+
+https://github.com/user-attachments/assets/bc65a9c4-c210-4110-b1bd-835dc56b487a
+
+The printing process went off without a hitch, going along as normal.
+
+<img width="4284" height="5712" alt="IMG_7628" src="https://github.com/user-attachments/assets/05b0cb88-3e0a-4e88-a242-a3c34a54b03a" />
+
+The file and the finished product at the end of printing. In total the print itself took about 31 minutes after the printer's warmup steps concluded.
 
 ## In Review
+
