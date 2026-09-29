@@ -12,7 +12,7 @@ This lab was about designing a snap fit for a certain artifact that we were give
 ## Research & Brainstorming
 **Artifact Information**
 
-The artifact we were given to design our snap fit for was an Arduino UNO. It is a starter board for beginners learning about electronics and coding. 
+The artifact to design a snap fit part for was the Raspberry Pi Pico. It is a starter board for beginners learning about electronics and coding. A rather small part with a lot of 
 
 **Artifact Measurements**
 The design choice to hold the part from (blank location) on the artifact necessitated recording of the following measurements:
@@ -26,19 +26,29 @@ The CAD system chosen for this project was SOLIDWORKS.
 ## Pre-printing Process
 The file was imported into PrusaSlicer for slicing and pre-print processing. 
 **Print Settings**
-- Material: 
-- Wall Thickness:
-- Layer Thickness:
-- Layers:
-- Build Volume:
-- Slicer Settings:
-- Infill Percentage:
-- Infill Type: 
+- Material: PETG (Blue)
+- Wall Thickness: 0.86mm
+- Layer Thickness: 0.2mm
+- Layers: 5 for top and bottom of part
+- Build Volume: 
+- Slicer Settings: 
+- Infill Percentage: 30%
+- Infill Type: Gyroid
 
 ## Printing
 The part was printed on a Prusa Core One FDM printer.
 
+<img width="3024" height="4032" alt="IMG_7713" src="https://github.com/user-attachments/assets/bb2b5bb8-5842-4a63-aa05-61a4c55c70a1" />
 
-Supports were removed using needle-nose pliers and a metal scraper for larger supports and a metal pick for finer ones.
+The first capture shows the printing progression past the bottom layers and into the infill stage where the gyroid pattern can be seen.
+
+https://github.com/user-attachments/assets/711ea5a5-9e37-4f58-9d4c-9ef3039d8534
+
+The printing in the early stages, again showing the infill and rapid speed of production for a small part like the one designed here.
+
+Unfortunately, the final printed part did not meet the desired performance in terms of the snap fit and ability to hold the artifact in place. It could easily shake once inside the prongs and easily slip out, so the part had to go to a second iteration with improvements.
+
+
+No supports were necessary in the making of the associated part due to the small size of the snap overhangs, something the Prusa Core One was able to handle.
 ## In Review & Lessons Learned
 
