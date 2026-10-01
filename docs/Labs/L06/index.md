@@ -89,4 +89,4 @@ No further printing was needed because the third iteration met the desired snap 
 
 No supports were necessary in the making of the associated parts due to the small size of the snap overhangs, something the Prusa Core One was able to handle without issue.
 ## In Review & Lessons Learned
-
+Coming full circle, the final design took 3 attempts to get correct. The edits came from making small changes 
