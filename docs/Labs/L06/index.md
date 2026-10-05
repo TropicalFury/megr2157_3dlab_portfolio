@@ -12,7 +12,7 @@ This lab was about designing a snap fit for a certain artifact that we were give
 ## Research & Brainstorming
 **Artifact Information**
 
-The artifact to design a snap fit part for was the Raspberry Pi Pico. It is a starter board for beginners learning about electronics and coding. A rather small part with a lot of elements on the top side of the board, any snap fit design would need to have adequate clearance for those elements. Initial thoughts were to clamp the Pico from the short ends around the USB input plug and screw holes. This would allow for a lot of flexure in the cross-members of the part rather than the prongs that snap fit. The aim with that was to make said prongs last longer and not the be failure point of the part which would result in the artifact coming loose. After consideration of possible interference with a cable connected, the decision was changed the clamp the artifact on the long sides close to the corners, using the force of the snap and friction to hold the artifact in place.
+The artifact to design a snap fit part for was the Raspberry Pi Pico 2 W. It is a starter board for beginners learning about electronics and coding. A rather small part with a lot of elements on the top side of the board, any snap fit design would need to have adequate clearance for those elements. Initial thoughts were to clamp the Pico from the short ends around the USB input plug and screw holes. This would allow for a lot of flexure in the cross-members of the part rather than the prongs that snap fit. The aim with that was to make said prongs last longer and not the be failure point of the part which would result in the artifact coming loose. After consideration of possible interference with a cable connected, the decision was changed the clamp the artifact on the long sides close to the corners, using the force of the snap and friction to hold the artifact in place.
 
 **Artifact Measurements**
 The design choice to hold the part from (blank location) on the artifact necessitated recording of the following main measurements:
@@ -89,4 +89,49 @@ No further printing was needed because the third iteration met the desired snap 
 
 No supports were necessary in the making of the associated parts due to the small size of the snap overhangs, something the Prusa Core One was able to handle without issue.
 ## In Review & Lessons Learned
-Coming full circle, the final design took 3 attempts to get correct. The edits came from making small changes 
+Coming full circle, the final design took 3 attempts to get correct. The edits came from making small changes to the part's geometry in a couple of places starting with the distance between prongs when looking at the part from the short ends.
+
+**Distance Between Prongs**
+
+<img width="3024" height="1917" alt="IMG_7736" src="https://github.com/user-attachments/assets/501a6e4e-4ea8-477d-8ecc-6c8b3b981020" />
+
+The above picture shows the profile of the part around where it snaps to the artifact. The gap between prongs here with the first iteration was .835in.
+
+<img width="3024" height="1955" alt="IMG_7744" src="https://github.com/user-attachments/assets/dfbfe3fe-5f03-4f5d-b4d5-2442727da93b" />
+
+The second iteration saw that same gap tightened to .833in with the actual print, a decrease of 2 thou compared to a decrease of (blank) thou in the CAD model.
+
+<img width="3024" height="2040" alt="IMG_7751" src="https://github.com/user-attachments/assets/21817125-94cc-4d95-ad99-eebc3d94fcc5" />
+
+The gap between prongs on the final iteration came out to .829in upon printing, finally providing the necessary force to keep the part engaged on the artifact. While the part would stay engaged, prolonged use of the part being snapped onto the artifact could potentially open up the gap between prongs over time. This dimension could be tightened further to make the clamping force stay strong for longer, or more prongs could be added to provide more resistance.
+
+**Prong Design**
+
+The second area of the part that saw an iterative change were the prongs that snap onto the artifact. 
+
+<img width="3024" height="2567" alt="IMG_7737" src="https://github.com/user-attachments/assets/f093fc06-1e18-41d7-a9c5-e9ecfac77455" />
+
+The first design only had one set of what will be referred to as "claws" that snap around the main board of the part. These restricted motion when snapping onto and removal from the artifact, but allowed for movement once snapped on. The artifact could move closer to the support structure of the part, an undesired outcome that necessitated a fix.
+
+<img width="3024" height="2148" alt="IMG_7741" src="https://github.com/user-attachments/assets/b5de43c8-3e19-4ae9-9003-d0f8cde8caa4" />
+
+The second iteration had to claws on each prong that prevented the movement previously mentioned. No other changes were made to the prongs themselves besides this, but another potential problem was seen with how far the part support structure was to the elements on top of the artifact that stick out particularly far. Another change was made to attempt to rectify this.
+
+<img width="3023" height="2657" alt="IMG_7750" src="https://github.com/user-attachments/assets/574c360f-bf5c-4f53-80d1-fc4343513b18" />
+
+<img width="3024" height="2270" alt="IMG_7754" src="https://github.com/user-attachments/assets/aa7cf591-f7b5-441c-9245-cd81f872e8e4" />
+
+The claws and profile of the prongs stayed the same for the final iteration except that they were made taller overall. The comparison between the second and third showing this change can be seen in the second image just above. This demonstrated a marked improvement in eliminating interference with the tallest elements on the artifact. The micro-USB input was easily cleared along with most other elements, but the debug plug-in still made contact with the middle cross-member of the supporting base. A further attempt was not made to eliminate this interference due to running into the time constraint, but this would be an emphasis for further change in a new iteration.
+
+**Fit on Artifact**
+The main goals of the design from the start were to keep part clamped with minimal material use, quick manufacture time, and retain the ability to use all elements on the artifact when the part is applied to it.
+
+<img width="3024" height="2326" alt="IMG_7757" src="https://github.com/user-attachments/assets/7ce738cf-eabe-4e3e-a36d-3ef15d9779ca" />
+
+The final fit of the part on the artifact showing how the first goal of the project was met.
+
+<img width="3024" height="1993" alt="IMG_7756" src="https://github.com/user-attachments/assets/0319cb15-3288-467d-92e5-4366bbe35394" />
+
+The openings in the support structure of the part allow for access to all elements on the artifact that can be physically interacted with.
+
+Breaking down the overall time spent on the project, it took around 4 hours to design and print the project through three iterations and then around 6 hours to fill out the page in this portfolio and inspect the part in its final iteration, rounding out to an estimated 10 hours to complete total. The main point of improvement that can be made moving forward is to start the projects earlier so as to not run into time constraints and build up large amounts of external pressure.
