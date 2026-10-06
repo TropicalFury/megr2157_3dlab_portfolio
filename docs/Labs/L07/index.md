@@ -25,10 +25,19 @@ A quick mockup of the pin was started first.
 
 fill
 
+## Pre-printing Process
 
+
+While watching the start of the final print the bottom layers of one of the linkages had a printing error and the decision was made to keep that set of prints going but print another linkage to see if a better quality print could be done. It used all of the same print settings as the first attempt with the final iteration parts.
+
+<img width="708" height="470" alt="image" src="https://github.com/user-attachments/assets/191dcaa3-78b9-4beb-9455-9a16b27e2417" />
+
+<img width="418" height="158" alt="image" src="https://github.com/user-attachments/assets/5b5f968c-47ed-48b1-b189-342e2ee9de09" />
+
+The slicing information is also displayed above for the added linkage print. Due to the quick recognition of a printing error and decision to run it again on a different machine, the extra linkage actually finished printing before the other group of final parts.
 
 ## Printing
 
-
+As mentioned in the pre-printing section, an extra linkage had to be printed 
 ## In Review & Lessons Learned
 
