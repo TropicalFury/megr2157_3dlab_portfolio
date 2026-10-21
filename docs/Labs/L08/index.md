@@ -42,7 +42,7 @@ Finally, the top plate uses the initial static walls that are molded to the link
 
 
 ## Printing
-All parts for this assignment were printed using white PLA filament on Prusa CORE ONE FDM 3D printers.
+All parts for this assignment were printed using white PLA filament on Prusa CORE ONE FDM 3D printers. Machines 15 and 18 were used for the printing.
 
 Not wanting to waste time and filament on printing a full size prototype of the design, critical sections were tried first to find out if iteration was necessary to get the desired performance. This began with the sliding fork and cart and the fitment between the holes in the cart and the pins of the fork.
 
@@ -93,9 +93,15 @@ Looking back after all the printing was complete, final time stats for the parts
 
 <img width="5712" height="4284" alt="IMG_7961" src="https://github.com/user-attachments/assets/ea7bd534-1de5-4dc9-8dfe-761725a0bd50" />
 
+The final cart design which shows off the holes for the pins of the sliding fork and the retaining wall that holds a linkage end. Due to the print orientation of the part, any vertical feature of the cart has visible layers that can be easily felt as well. This part has one angled section and there has the difference in each layer to achieve the angle are easily seen. The bottom is very smooth and the top has the print pattern visible but still provides a smooth finish as well. The holes were small enough to not require supports and had a small amount of droop on the ends from how the perimeters are printed first, something that caused interference but was did not significantly impact the fit between parts. The width of these holes came out to .145 in and the height at 
+
 <img width="4032" height="3024" alt="IMG_7962" src="https://github.com/user-attachments/assets/92d055f7-3d54-4268-8c02-3de82628c58a" />
 
+The final sliding fork design. Both versions of the print share the vertical and horizontal surface features of the cart. The pins have a large amount of flexibility due to the thin profile of the feature and flex when in use under heavy load but return to their original state in every test application applied to it. The pins measured in at .147 in wide by .94 in tall at maximum for the first iteration and .142 in wide by .89 in tall for the second iteration.
+
 <img width="5712" height="4284" alt="IMG_7963" src="https://github.com/user-attachments/assets/39f889bd-e10b-4d64-a667-6dde2e4e69fd" />
+
+This image shows the proper fit of the sliding fork in the cart. The hole and pin have a large enough offset to allow for easy insertion but still holds when tipped to the side and shaken. 
 
 <img width="5712" height="4284" alt="IMG_7964" src="https://github.com/user-attachments/assets/08cd4198-938e-4e2e-a7ad-f70116e6ca52" />
 
